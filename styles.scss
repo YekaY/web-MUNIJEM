@@ -1,0 +1,52 @@
+body {
+  width: 595px;
+  height: 842px;
+  background-color: aqua;
+  font-family: Arial, "Lucida Sans Unicode", Helvetica, sans-serif;
+}
+
+.doc_head {
+  margin-top: 20px;
+  .izquierda {
+    width: 297px;
+    height: 250px;
+    background-color: red;
+    float: left;
+    ._logo {
+      img {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+    .info {
+      margin-top: 10px;
+
+      ._empresa,
+      ._direccion,
+      ._telefono,
+      ._correo {
+        text-align: center;
+      }
+    }
+  }
+
+  .derecha {
+    width: 297px;
+    height: 250px;
+    background-color: yellow;
+    float: right;
+    .cuadro {
+      margin-top: 50px;
+      text-align: center;
+      background-color: tomato;
+      .c_1,
+      .c_2,
+      .c_3 {
+        color: aqua;
+        margin-top: 15px;
+      }
+    }
+  }
+}
